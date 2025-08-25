@@ -1,0 +1,32 @@
+{
+  "name": "bot-box",
+  "version": "0.1.0",
+  "description": "Open-source project that makes running Discord bots easy — deploy, start/stop, view logs, and scale without server setup.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucaMezz/bot-box"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "bot-hosting",
+    "open-source",
+    "automation",
+    "dev-tools",
+    "scaling",
+    "logs",
+    "deployment"
+  ],
+  "author": "Luca Mezzavilla",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.40.0"
+  }
+}
