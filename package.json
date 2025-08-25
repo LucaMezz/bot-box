@@ -10,7 +10,6 @@
     "lint": "eslint apps/ packages/ --ext .js,.ts,.tsx",
     "lint:fix": "eslint apps/ packages/ --ext .js,.ts,.tsx --fix",
     "check": "pnpm format:check && pnpm lint",
-
     "docs:start": "pnpm --filter docs start",
     "docs:build": "pnpm --filter docs build"
   },
