@@ -28,8 +28,8 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
+  "url": "https://LucaMezz.github.io",
+  "baseUrl": "/bot-box/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
