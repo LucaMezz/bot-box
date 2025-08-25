@@ -1,9 +1,19 @@
 {
   "name": "bot-box",
+  "private": true,
   "version": "0.1.0",
   "description": "Open-source project that makes running Discord bots easy — deploy, start/stop, view logs, and scale without server setup.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,md,css,scss,html}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,tsx,json,md,css,scss,html}\"",
+    "lint": "eslint apps/ packages/ --ext .js,.ts,.tsx",
+    "lint:fix": "eslint apps/ packages/ --ext .js,.ts,.tsx --fix",
+    "check": "pnpm format:check && pnpm lint",
+
+    "docs:start": "pnpm --filter docs start",
+    "docs:build": "pnpm --filter docs build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/LucaMezz/bot-box"
